@@ -140,10 +140,10 @@ header a:hover{
 #containergames .gamebox{
 	float:left;
 	text-align:center;
-	width:32%;
+	width:30%;
 	min-width:350px;
 	min-height:525px;
-	margin:5px;
+	margin:22px;
 	margin-top:0;
 	padding-top:30px;
 	background-color:#dbffff;
