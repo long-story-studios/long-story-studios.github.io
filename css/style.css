@@ -5,7 +5,7 @@ body{
 	
 	padding:0;
 	margin:0;
-	background-color:#fffdf4;
+	background-color:#bcf8ff;
 }
 
 /* Global */
@@ -28,16 +28,23 @@ ul{
 
 /* Header */
 header{
-	background:#b2fbff;
+	background:#fffdf4;
 	color:#ff00fa;
 	padding-top:10px;
 	min-height:70px;
+	
+	border:solid;
+	border-top-width:0;
+	border-right-width:0;
+	border-left-width:0;
+	border-bottom-width:3px;
+	border-color:#e5e5e5;
 }
 
 header a{
-	color:#a8a8a8;
+	color:#7c7c7c;
 	text-decoration:none;
-	font-size:16px;
+	font-size:20px;
 }
 
 
@@ -45,10 +52,6 @@ header li{
 	float:left;
 	display:inline;
 	padding: 0 20px 0 20px;
-}
-
-header #logoheader img{
-	margin-right: 20px;
 }
 
 header #logoheader{
@@ -65,7 +68,7 @@ header #logoheader a{
 
 header nav{
 	float:right;
-	margin-top:35px;
+	margin-top:30px;
 }
 
 header a:hover{
@@ -75,7 +78,7 @@ header a:hover{
 
 /* Introduction */
 #introduction{
-	padding-top:15px;
+	margin-top:45px;
 	margin-bottom:0;
 }
 
@@ -112,9 +115,15 @@ header a:hover{
 	font-size:25px;
 }
 
-/* Boxes */
+
+/* Game Boxes */
 #gameshowcase{
-	margin-top: 20px;
+	margin-top: 25px;
+}
+
+#gameshowcase .title{
+	text-align:center;
+	font-size:30px;
 }
 
 #containergames {
@@ -122,23 +131,47 @@ header a:hover{
 	margin-left: auto;
 	margin-right: auto;
 }
+
+#containergames a{
+	color:#000000;
+	text-decoration:none;
+}
+
 #containergames .gamebox{
 	float:left;
 	text-align:center;
 	width:32%;
-	min-width:300px;
-	padding:10px;
+	min-width:375px;
+	min-height:525px;
+	margin:10px;
+	margin-top:0;
+	padding-top:30px;
+	background-color:#dbffff;
+	
+	border-style:solid;
+	border-color:#c7e5e5;
+	border-bottom-width:3px;
+	border-left-width:3px;
+	border-top-width:0;
+	border-right-width:0;
+	
+}
+#containergames .gamebox:hover{
+	background-color:#cbefef;
 }
 
-#containergames .gamebox p{
+#containergames .gamebox h5{
 	font-size:17px;
 	margin-right:50%;
 	transform: translate(50%);
-	padding:9px;
+	margin-top:20px;
+	color:#565656;
 }
 
 #containergames .gamebox h3{
-	font-size:25px;
+	margin-top:5px;
+	margin-bottom:0;
+	font-size:35px;
 }
 
 #containergames .gamebox img{
@@ -149,6 +182,8 @@ header a:hover{
 /* Description */
 #moreinfo .container{
 	text-align:center;
+	font-size:17px;
+	padding-top:75px;
 }
 
 
