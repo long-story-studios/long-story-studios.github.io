@@ -47,6 +47,9 @@ header li{
 	padding: 0 20px 0 20px;
 }
 
+header #logoheader img{
+	margin-right: 20px;
+}
 
 header #logoheader{
 	float:left;
