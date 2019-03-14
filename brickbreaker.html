@@ -28,6 +28,73 @@
 			</div>
 		</header>
 		
+		<section id="download">
+			<div class="gameHeader">
+				<img src="./img/BrickBreakerGraphic.png" width=1000rem> 
+			</div>
+			<div class="container">
+				<h1>Brick Breaker: Crush Hour</h1>
+				<h3>Download now for FREE!</h3>
+			</div>
+			<div class="container">
+				<button type="submit" class="downloadBtn">iOS App Store</button>
+				<button type="submit" class="downloadBtn">Google Play Store</button>
+			</div>
+		</section>
 		
+		<section id="video-showcase">
+			<div class="video-container">
+				<iframe width="980" height="551" src="https://www.youtube.com/embed/moUU9ZCMIEk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</section>
+		
+		<section id="features">
+		
+			<div class="game-description">
+				<p><b>Have the need to break something?  Why not bricks?  Break bricks today with Brick Breaker: Crush Hour!</b></p>
+				<p>Brick Breaker: Crush Hour is a clicker game about smashing bricks and growing your cement crushing business</p>
+				<p><b>Features Include:</b></p>
+				<p>- Breakable brick that can crumble with the tap of a finger.  You also earn brick bux and brick bits for smashing bricks.</p>
+				<p>- Spend your brick bucks on upgrades to improve the efficiency and effectiveness of you deconstruction skills.</p>
+				<p>- Hire and upgrade workers to break bricks for you.</p>
+				<p>- Unlock different brick customization to change the way your brick looks.</p>
+			</div>
+			<div class="image-slideshow" onclick="plusDivs(1)">
+				<img class="mySlides" src="./img/BrickBreaker/ScreenShot1.png" height="551">
+				<img class="mySlides" src="./img/BrickBreaker/Screenshot2.png" height="551">
+				<img class="mySlides" src="./img/BrickBreaker/ScreenShot3.png" height="551">
+
+			</div>
+
+			<script>
+				var slideIndex = 1;
+				showDivs(slideIndex);
+
+				function plusDivs(n) {
+				  showDivs(slideIndex += n);
+				}
+
+				function showDivs(n) {
+				  var i;
+				  var x = document.getElementsByClassName("mySlides");
+				  if (n > x.length) {slideIndex = 1}
+				  if (n < 1) {slideIndex = x.length}
+				  for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";  
+				  }
+				  x[slideIndex-1].style.display = "block";  
+				}
+				carousel();
+
+				function carousel() {
+				  plusDivs(1);
+				  setTimeout(carousel, 5000); // Change image every 2 seconds
+				}
+			</script>
+		</section>
+		
+		<footer>
+			<p>Long Story Studios, Est. 2018</p>
+		</footer>
 	</body>
 </html>
