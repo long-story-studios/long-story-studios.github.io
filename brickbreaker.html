@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width">
 		<meta name="desctiption" content="Official website of Long Story Studios">
 		<meta name="keywords" content="indie, game development, game developer, developer, video games, mobile, pc, mac, apps, studio, long, story, studios">
-		<title>LS Studios | Home</title>
+		<title>LS Studios | Brick Breaker: Crush Hour</title>
 		<link rel="stylesheet" href="./css/style.css">
 	</head>
 	
@@ -30,67 +30,75 @@
 		
 		<section id="download">
 			<div class="gameHeader">
-				<img src="./img/BrickBreakerGraphic.png" width=1000rem> 
+				<img src="./img/BrickBreakerGraphic.png" width=950rem> 
 			</div>
 			<div class="container">
-				<h1>Brick Breaker: Crush Hour</h1>
-				<h3>Download now for FREE!</h3>
+				<h1>Download now for FREE!</h1>
 			</div>
 			<div class="container">
-				<button type="submit" class="downloadBtn">iOS App Store</button>
-				<button type="submit" class="downloadBtn">Google Play Store</button>
-			</div>
-		</section>
-		
-		<section id="video-showcase">
-			<div class="video-container">
-				<iframe width="980" height="551" src="https://www.youtube.com/embed/moUU9ZCMIEk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<a href="https://itunes.apple.com/us/app/brick-breaker-crush-hour/id1375693197?ls=1&mt=8">
+					<div class="download-button">
+						<h2>iOS App Store</h2>
+					</div>
+				</a>
+				<a href="https://play.google.com/store/apps/details?id=com.LSStudios.BrickBreaker">
+					<div class="download-button">
+						<h2>Google Play Store</h2>
+					</div>
+				</a>
 			</div>
 		</section>
 		
 		<section id="features">
-		
-			<div class="game-description">
-				<p><b>Have the need to break something?  Why not bricks?  Break bricks today with Brick Breaker: Crush Hour!</b></p>
-				<p>Brick Breaker: Crush Hour is a clicker game about smashing bricks and growing your cement crushing business</p>
-				<p><b>Features Include:</b></p>
-				<p>- Breakable brick that can crumble with the tap of a finger.  You also earn brick bux and brick bits for smashing bricks.</p>
-				<p>- Spend your brick bucks on upgrades to improve the efficiency and effectiveness of you deconstruction skills.</p>
-				<p>- Hire and upgrade workers to break bricks for you.</p>
-				<p>- Unlock different brick customization to change the way your brick looks.</p>
+			<div class="container">
+				<div class="video-container">
+					<iframe width="100%" height="551" src="https://www.youtube.com/embed/moUU9ZCMIEk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				
+				<div class="container-description">
+					<div class="game-description">
+						<p><b>Have the need to break something?  Why not bricks?  Break bricks today with Brick Breaker: Crush Hour!</b></p>
+						<p>Brick Breaker: Crush Hour is a clicker game about smashing bricks and growing your cement crushing business</p>
+						<p><b>Features Include:</b></p>
+						<p>- Breakable brick that can crumble with the tap of a finger.  You also earn brick bux and brick bits for smashing bricks.</p>
+						<p>- Spend your brick bucks on upgrades to improve the efficiency and effectiveness of you deconstruction skills.</p>
+						<p>- Hire and upgrade workers to break bricks for you.</p>
+						<p>- Unlock different brick customization to change the way your brick looks.</p>
+					</div>
+						<div class="image-slideshow" onclick="plusDivs(1)">
+						<img class="mySlides" src="./img/BrickBreaker/ScreenShot1.png" height="551">
+						<img class="mySlides" src="./img/BrickBreaker/Screenshot2.png" height="551">
+						<img class="mySlides" src="./img/BrickBreaker/ScreenShot3.png" height="551">
+					</div>
+				</div>
+				
+
+				<script>
+					var slideIndex = 1;
+					showDivs(slideIndex);
+
+					function plusDivs(n) {
+					  showDivs(slideIndex += n);
+					}
+
+					function showDivs(n) {
+					  var i;
+					  var x = document.getElementsByClassName("mySlides");
+					  if (n > x.length) {slideIndex = 1}
+					  if (n < 1) {slideIndex = x.length}
+					  for (i = 0; i < x.length; i++) {
+						x[i].style.display = "none";  
+					  }
+					  x[slideIndex-1].style.display = "block";  
+					}
+					carousel();
+
+					function carousel() {
+					  plusDivs(1);
+					  setTimeout(carousel, 5000); // Change image every 2 seconds
+					}
+				</script>
 			</div>
-			<div class="image-slideshow" onclick="plusDivs(1)">
-				<img class="mySlides" src="./img/BrickBreaker/ScreenShot1.png" height="551">
-				<img class="mySlides" src="./img/BrickBreaker/Screenshot2.png" height="551">
-				<img class="mySlides" src="./img/BrickBreaker/ScreenShot3.png" height="551">
-
-			</div>
-
-			<script>
-				var slideIndex = 1;
-				showDivs(slideIndex);
-
-				function plusDivs(n) {
-				  showDivs(slideIndex += n);
-				}
-
-				function showDivs(n) {
-				  var i;
-				  var x = document.getElementsByClassName("mySlides");
-				  if (n > x.length) {slideIndex = 1}
-				  if (n < 1) {slideIndex = x.length}
-				  for (i = 0; i < x.length; i++) {
-					x[i].style.display = "none";  
-				  }
-				  x[slideIndex-1].style.display = "block";  
-				}
-				carousel();
-
-				function carousel() {
-				  plusDivs(1);
-				  setTimeout(carousel, 5000); // Change image every 2 seconds
-				}
-			</script>
 		</section>
 		
 		<footer>
