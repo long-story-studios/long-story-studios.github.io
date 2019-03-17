@@ -34,7 +34,6 @@ ul{
 header{
 	background:#fffdf4;
 	color:#ff00fa;
-	padding-top:10px;
 	min-height:70px;
 	
 	border:solid;
@@ -53,13 +52,14 @@ header a{
 
 
 header li{
-	float:left;
+	float:right;
 	display:inline;
 	padding: 0 20px 0 20px;
 }
 
 header #logoheader{
 	float:left;
+	width:50%;
 }
 
 header #logoheader a{
@@ -72,7 +72,8 @@ header #logoheader a{
 
 header nav{
 	float:right;
-	margin-top:30px;
+	margin-top:2%;
+	width:50%;
 }
 
 header a:hover{
@@ -233,7 +234,7 @@ footer{
 #download .download-button{
 	float:left;
 	width:20%;
-	min-width:8rem;
+	min-width:10rem;
 	margin-left:14.6%;
 	margin-right:14.6%;
 	margin-top:2rem;
@@ -258,6 +259,38 @@ footer{
 }
 
 #download .download-button h2{
+	text-decoration:none;
+	color:#ffffff;
+}
+
+#download .download-button-single{
+	float:left;
+	width:20%;
+	min-width:8rem;
+	margin-left:40%;
+	margin-right:30%;
+	margin-top:2rem;
+	min-height:7rem;
+	background-color:#1ee200;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	border-radius: 10px;
+	border-style:solid;
+	border-color:#149e00;
+	border-bottom-width:1%;
+	border-left-width:1%;
+	border-top-width:0;
+	border-right-width:0;
+}
+
+#download .download-button-single:hover{
+	background-color:#1eef00;
+}
+
+#download .download-button-single h2{
 	text-decoration:none;
 	color:#ffffff;
 }
@@ -300,10 +333,35 @@ footer{
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	
 }
+
+#features .game-description-full{
+	float:left;
+	width:70%;
+	margin-left:15%;
+	margin-bottom:3%;
+	font-size:1.2rem;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	
+}
 #features .image-slideshow{
-	float:right;
-	width:30%;
-	min-width:20rem;
+	float:left;
+	margin-left:5%;
+	
+	width:20%;
+	min-width:19rem;
+}
+
+#features .image-slideshow-wide{
+	width:70%;
+	margin-left:15%;
+	margin-right:15%;
+	margin-top:1rem;
+	padding-bottom:0.2rem;
+}
+
+#features .image-slideshow-wide img{
+	width: 100%;
+	height: auto;
 }
 
 
