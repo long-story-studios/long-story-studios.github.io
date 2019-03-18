@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="desctiption" content="Official website of Long Story Studios">
+		<title>LS Studios | Contact</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="icon" href="img/LSLogo2_512.png">
+	</head>
+	
+	<body>
+		<header>
+			<div class="container">
+				<div id="logoheader">		
+					<img src="img/LSLogo2_512Milky.png" height="75" width="75"> 
+					<!-- <h1><a href="index.html">LS Studios</a></h1> -->
+				</div>
+				<nav>
+					<ul>
+					
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="https://longstorystudiosblog.wordpress.com/"target="_blank">Blog</a></li>
+						<li><a href="about.html">About</a></li>
+						<!--<li><a href="games.html">Games</a></li>-->
+						<li><a href="index.html">Home</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		<section id="contact-header">
+			<div class="container">
+				<h1>Contact Us!</h1>
+				<p>Have any feedback, or just want to get in touch?  Go ahead and shoot us a message!</p>
+				<p>Please enter the information requested along with your message to contact us.</p>
+			</div>
+		</section>
+		
+		<section id="contact">
+			<div class="contact-info">
+				<form id="contact-form" method="post" action="php/contact-form-handler.php">
+					<p>Your Name*</p>
+					<input name="name" type="text" class="form-control" placeholder="" required><br>
+					<p>Your Email*</p>
+					<input name="email" type="email" class="form-control" placeholder="" required><br>
+					<p>Messege*</p>
+					<textarea name="message" class="form-control" placeholder="" rows="5" required></textarea><br>
+					<input type="submit" class="form-control submit" value="Send">
+				</form>
+			</div>
+		</section>
+		<footer>
+			<p>Long Story Studios, Est. 2018</p>
+		</footer>		
+	</body>
+</html>
