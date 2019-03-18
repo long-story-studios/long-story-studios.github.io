@@ -192,6 +192,11 @@ header a:hover{
 	text-align:center;
 	font-size:17px;
 	padding-top:75px;
+	
+}
+
+#moreinfo a{
+	color:#ff00fa;
 }
 
 /* Footer */
@@ -199,7 +204,7 @@ footer{
 	padding:2px;
 	margin-top:30px;
 	color:#a4a4a5;
-	background-color:#ffffff;
+	background-color:#fffdf4;
 	text-align:center;
 	
 	border:solid;
@@ -434,10 +439,8 @@ footer{
 
 /*Contact Form*/
 #contact{
-	height:70%;
-	width:50%;
+	width:80%;
 	margin:auto;
-	margin-bottom:10%;
 }
 #contact p{
 	text-align:left;
@@ -461,26 +464,12 @@ footer{
 	border-width:0.05rem;
 }
 
-#contact .submit{
-	width:30%;
-	min-width:6rem;
-	height:3rem;
-	margin-top:1.5rem;
-	background-color:#1ee200;
-	
-	border-radius: 10px;
-	border-style:solid;
-	border-color:#149e00;
-	border-bottom-width:0.1rem;
-	border-left-width:0.1rem;
-	border-top-width:0;
-	border-right-width:0;
+#contact p{
+	text-align:center;
 }
 
-#contact .submit:hover{
-	outline:none;
-	background-color:#1eef00;
-	cursor: pointer;
+#contact a{
+	color:#ff00fa;
 }
 
 
