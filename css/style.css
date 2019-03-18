@@ -5,7 +5,7 @@ body{
 	
 	padding:0;
 	margin:0;
-	background-color:#bcf8ff;
+	background-color:#C2FBFF;
 }
 
 
@@ -365,4 +365,48 @@ footer{
 	height: auto;
 }
 
+/* About Us */
+#about-us .container{
+	width:40%;
+	margin:auto;
+	text-align:center;
+	margin-top:2.5rem;
+	margin-bottom:3rem;
+	color:#3d3d3d;
+}
+
+#about-us h1{
+	font-size:2.6rem;
+	margin-bottom:0.1rem;
+}
+
+#about-us p{
+	font-size:1.15rem;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#staff-profiles .staff-profile{
+	width:70%;
+	margin:auto;
+}
+
+#staff-profiles .staff-profile img{
+	height:auto;
+	width:95%;
+}
+
+#staff-profiles p{
+	font-size:0.85rem;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#staff-profiles h3{
+	text-align:center;
+	font-size:1.1rem;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#staff-profiles a{
+	color:#ff00fa;
+}
 
