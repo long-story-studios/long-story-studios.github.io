@@ -1,111 +1,146 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width">
-		<meta name="desctiption" content="Official website of Long Story Studios">
-		<meta name="keywords" content="indie, game development, game developer, developer, video games, mobile, pc, mac, apps, studio, long, story, studios">
-		<title>LS Studios | Home</title>
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="icon" href="img/LSLogo2_512.png">
-	</head>
-	<body>
-		<header>
-			<div class="container">
-				<div id="logoheader">		
-					<a href="index.html"><img src="img/LSLogo2_512Milky.png" height="75" width="75"></a>
-					<!-- <h1><a href="index.html">LS Studios</a></h1> -->
-				</div>
-				<nav>
-					<ul>
-						<li><a href="contact.html">Contact</a></li>
-						<li><a href="https://longstorystudiosblog.wordpress.com/"target="_blank">Blog</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="https://teespring.com/stores/long-story-studios-merchandise?page=1" target="_blank">Merch</a></li>
-						<!--<li><a href="games.html">Games</a></li>-->
-						<li><a href="index.html">Games</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-		
-		<section id="introduction">
-			<div class="container">
-				<h1><i>"It's a long story..."</i></h1>
-				<h2>OK, maybe not that long.</h2>
-			</div>
-			<div class="container">
-				<h3>Welcome to the official website for <b>Long Story Studios!</b>  We make games!</h3>
-			</div>
-		</section>
-		
-		
-		<section id="gameshowcase">
-			<div class="title">
-				<h1>Check out our Games!</h1>
-			</div>
-			<div id="containergames">
-				<a href="unit108.html">
-					<div class="gamebox">
-						<img src="img/Unit108Image.png" height="256" width="256">
-						<h3>Unit 108</h3>
-						<h5>Currently in development</h5>
-						<h5>An Action packed platformer where you play as cyborg, Deacon Gray!</h5>
-					</div>
-				</a>
-				<a href="turboquiz.html">
-					<div class="gamebox">
-						<img src="img/TurboQuizIcon.png" height="256" width="256">
-						<h3>Turbo Quiz</h3>
-						<h5>A fast-paced trivia game where all you have to do is answer “Yes” or “No” within the time limit. Sounds easy now…</h5>
-					</div>
-				</a>
-				<a href="xsolitaire.html">
-					<div class="gamebox">
-						<img src="img/XSolitaireIcon.png" height="256" width="256">
-						<h3>XSolitaire Challenge</h3>
-						<h5>Solitaire, but Extreme! Available pay-what-you-want for PC and Mac.</h5>
-					</div>
-				</a>
-				<a href="brickbreaker.html">
-					<div class="gamebox">
-						<img src="img/BrickBreakerIcon.png" height="256" width="256">
-						<h3>Brick Breaker: Crush Hour</h3>
-						<h5>A tap-based (de)construction (de)simulator for iOS and Android phones.</h5>
-					</div>
-				</a>
-				<a href="https://lsstudios.itch.io/puzzle-powered" target="_blank">
-					<div class="gamebox">
-						<img src="img/PuzzlePoweredIcon.png" height="256" width="256" >
-						<h3>Puzzle Powered</h3>
-						<h5>A 2D ship building game where you fight hordes of space insects.  Made in a 48 hour game jam!</h5>
-					</div>
-				</a>
-			</div>
-		</section>
-		
-		<section id="moreinfo">
-			<div class="container">
-				<h2>More games on the way!<h2>
-				<h2>Check out our <a href="https://twitter.com/longstorystudio">Twitter</a> and our <a href="https://longstorystudiosblog.wordpress.com/"target="_blank">Blog</a> for updates and announcements!</h2>
-			</div>
-		</section>
-		
-		<!--
-		<section id="newsletter">
-			<div class="container">
-				<h1>Subscribe To Our Newsletter</h1>
-				<form>
-					<input type="email" placeholder="Enter Email...">
-					<button type="submit" class="button_1">Subscribe</button>
-				</form>
-			</div>
-		</section>
-		-->
-		
-		<footer>
-			<p>Long Story Studios, Est. 2018 --	<a href="privacy.html">Privacy Policy</a> </p>
-		</footer>
-		
-	</body>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Long Story Studios Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body>
+    <section id="hero">
+        <nav class="navbar navbar-light navbar-expand-md">
+            <div class="container-fluid"><a class="navbar-brand" href="index.html"></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon" style="background-image:url(&quot;assets/img/menu.png&quot;);"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav mx-auto" style="font-weight:bold;">
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">HOME</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="about-us.html">ABOUT US</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="games.html">GAMES</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="https://teespring.com/stores/long-story-studios-merchandise" target="_blank">MERCH</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html">CONTACT</a></li>
+                    </ul>
+            </div>
+            </div>
+        </nav>
+        <div class="container-fluid" id="page-1-long-story">
+            <div class="row">
+                <div class="col" id="Title">
+                    <p class="text-center" id="long-story-title" style="font-size:25px;line-height:26px;margin:-9px;margin-bottom:0px;"><br><strong>OUR LONG STORY</strong><br></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" id="subtitle" style="font-style:italic;letter-spacing:1px;color:rgba(255,255,255,0.75);">
+                    <p class="text-center" style="font-size:18px;margin:0px;margin-top:14px;"><em>We are a group of college students from all across the state of California - from Sacramento to San Diego working together to achieve our passion of making fun games for all of our friends and fans.</em><br></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="games-page" class="extend-wallpaper" style="width:100%;height:100vh;">
+        <div class="container">
+            <div class="row">
+                <div class="col games-title" style="margin-top:55px;height:53px;">
+                    <h1 class="text-center" style="color:rgb(209,209,209);font-weight:700;font-size:42px;">GAMES</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" style="height:45px;">
+                    <p class="text-center" style="font-size:19px;margin-top:8px;color:rgb(209,209,209);">Ranging from indie games to puzzle adventures on PC, iOS, and Android.<br></p>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="games-container" style="padding-left:50PX;">
+            <div class="row" style="margin-top:14px;">
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/game-item1.png"></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/game-item2.png"></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/game-item3.png"></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/game-item4.png"></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/game-item5.png"></a></div>
+            </div>
+        </div>
+    </section>
+    <div class="newsletter-subscribe" style="background-image:url(&quot;assets/img/story-time-bg.png&quot;);height:390px;">
+        <div class="container story-time">
+            <div>
+                <h2 class="text-center story-time-heading" style="color:rgb(255,255,255);font-size:40px;font-weight:bold;padding-top:79px;">Story Time Wednesdays</h2>
+                <p class="text-center mx-auto" style="color:rgb(255,255,255);font-size:18px;padding-top:7px;width:549px;max-width:549px;">Every week,&nbsp; we post updates, backstories as well as thought processes on how we came up&nbsp; with our characters, mechanics, levels and more.<br></p>
+                <div class="row">
+                    <div class="col"><a class="btn btn-primary" role="button" href="https://longstorystudiosblog.wordpress.com/" target="_blank" style="padding-right:20px;padding-left:20px;padding-top:10px;padding-bottom:10px;margin-top:14px;background-color:rgb(4,27,52);">Read Our Blog</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="merch" style="height:100vh;background-image:url(&quot;assets/img/games-img.png&quot;);width:100%;">
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col games-title" style="margin-top:55px;height:53px;">
+                        <h1 class="text-center" style="color:rgb(209,209,209);font-weight:700;font-size:42px;">MERCH</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col" style="height:45px;">
+                        <p class="text-center" style="font-size:19px;margin-top:8px;color:rgb(209,209,209);">Yes! We have some cool items for you too.<br></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row no-gutters d-flex" style="margin-top:37px;margin-left:30px;margin-right:30px;">
+                <div class="col-4">
+                    <div class="card"><a href="#"><img class="img-fluid" src="assets/img/merch-item-1.png"></a></div>
+                </div>
+                <div class="col-4">
+                    <div class="card"><a href="#"><img class="img-fluid" src="assets/img/merch-item-2.png"></a></div>
+                </div>
+                <div class="col-4">
+                    <div class="card"><a href="#"><img class="img-fluid" src="assets/img/merch-item-3.png"></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="mx-auto" style="margin-top:30px;width:235px;height:72px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col" style="height:45px;">
+                        <a href="https://teespring.com/stores/long-story-studios-merchandise" target="_blank">
+                            <p class="text-center" style="font-size:18px;margin-top:12px;color:#ffffff;">Go To Shop<br><i class="icon ion-android-arrow-up" style="font-size:22px;margin-top:9px;"></i></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="newsletter-subscribe" style="background-image:url(&quot;assets/img/story-time-bg.png&quot;);height:390px;">
+        <div class="container story-time">
+            <div>
+                <h2 class="text-center story-time-heading" style="color:rgb(255,255,255);font-size:40px;font-weight:bold;padding-top:101px;"><strong>Follow Us On Twitter</strong></h2>
+                <p class="text-center mx-auto" style="color:rgb(255,255,255);font-size:18px;padding-top:7px;width:549px;">We post exciting new content, well, everytime we think something is worth posting, so you will never have to worry about bad content.<br></p>
+                <div class="row">
+                    <div class="col" style="margin-top:33px;">
+                        <div style="margin-top:-35px;"><a class="d-flex justify-content-center" href="#" style="font-size:56px;"><i class="icon ion-social-twitter"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-basic">
+        <footer>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="index.html">Home</a></li>
+                <li class="list-inline-item"><a href="about-us.html">About Us</a></li>
+                <li class="list-inline-item"><a href="contact.html">Contact</a></li>
+                <li class="list-inline-item"><a href="privacy-policy.html">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Long Story Studios © 2018</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.js"></script>
+</body>
+
 </html>
