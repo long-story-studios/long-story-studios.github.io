@@ -99,6 +99,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 .texture-fabric::before{
 	background: url("img/texture-fabric.png");
 }
+.texture-darken::before{
+	background: rgba(0,0,0,0.5);
+}
 
 
 /* Background Effects */
@@ -350,6 +353,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Lato";
 	font-weight:700;
 	font-size:58px;
+	color:#FFFFFF!important;
 }
 .games-subtitle{
 	font-family:"Lato";
@@ -544,6 +548,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .checkbox-margin-bottom{
 	;
 }
+.elementale-royale-btn{
+	border-style:solid;
+	border-color:#2CFFF2!important;
+	color:#2CFFF2!important;
+	border-radius:2px 2px 2px 2px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -578,9 +588,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg-blue-brick-bg{
 	background-image:url("img/blue-brick-bg.jpg");
 }
-.bg-blue-characters-bg-min{
-	background-image:url("img/blue_characters_bg-min.jpg");
-}
 .bg-dark-gradient-bg{
 	background-image:url("img/dark-gradient-bg.png");
 }
@@ -601,6 +608,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bg-puzzle-powered-wallpaper{
 	background-image:url("img/puzzle-powered-wallpaper.png");
+}
+.bg-elementaleroyale-wallpaper{
+	background-image:url("img/elementaleroyale-wallpaper.png");
 }
 
 
